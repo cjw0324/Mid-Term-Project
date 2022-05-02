@@ -97,7 +97,7 @@ ul{
     color : black;
 }
 .hili:hover{
-    color :rgb(35, 38, 133);
+    color :rgb(0, 8, 255);
     font-size: 75px;
     font-weight: 900;
     transition: 0.3s;
