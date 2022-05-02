@@ -155,13 +155,25 @@ ul{
     transition: 0.5s;
 }
 
+.recent-menu-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.778);
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
 .recent-activity{
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 .youtube{
     margin-top: 20px;
-    margin-left: 30%;
+}
+.everland{
+    font-size: 35px;
+    margin-left: 130px;
 }
