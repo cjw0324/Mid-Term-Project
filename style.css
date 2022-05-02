@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR&display=swap');
 
-@font-face {
-    font-family: 'Cafe24Ohsquareair';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body{
     background-color: blanchedalmond;
@@ -18,6 +12,10 @@ body{
      margin: 25px 130px;
      display: flex;
      flex-direction: column;
+}
+
+p{
+    font-family: 'Noto Sans KR','Montserrat', sans-serif;
 }
 
 /*navigator*/
@@ -108,17 +106,17 @@ ul{
 .face{
     border: 2.5px solid rgb(36, 38, 108);
     border-bottom: 5px solid rgb(36, 38, 108);
-    border-radius: 50px;
-    width: 1px; 
-    height: auto;
+    border-radius: 25px;
+    width: 250px; 
+    margin-right: 70px;
 }
 
 .face:hover{
     border: 2.5px solid rgb(36, 38, 108);
     border-bottom: 5px solid rgb(36, 38, 108);
-    border-radius: 50px;
-    width: 300px;
-    transition: 0.8s;
+    border-radius: 25px;
+    width: 400px;
+    transition: 1.2s;
 }
 
 .recent-menu{
@@ -138,9 +136,22 @@ ul{
     font-size: 15px;
 }
 
-.intro{
-    color: red;
+/*  info.html */
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
 }
-.paragraph_3{
-    color: gray;
+.introduction>h2{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.introduction>p:hover{
+    font-size: 25px;
+    transition: 0.5s;
+
 }
