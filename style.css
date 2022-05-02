@@ -153,5 +153,15 @@ ul{
 .introduction>p:hover{
     font-size: 25px;
     transition: 0.5s;
+}
 
+.recent-activity{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.youtube{
+    margin-top: 20px;
+    margin-left: 30%;
 }
